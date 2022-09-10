@@ -10,13 +10,26 @@ body {
 
 .product-card {
     display: flex;
-    max-width: 400px;
+    max-width: 500px;
     background-color: white;
 }
 
 .product-card > .product-image {
     width: 50%;
 }
+
 .product-card > .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.product-card > .card-content > .category {
+    order: -1;
+}
+
+.product-card > .card-content > .price-component {
+    display: flex;
+    gap: 1rem;
 }
 
