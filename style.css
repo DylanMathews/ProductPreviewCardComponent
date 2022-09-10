@@ -54,6 +54,10 @@ p, h1 {
     font-weight: 700;
 }
 
+.product-card > .card-content > .product-description {
+    line-height: 2;
+}
+
 .product-card > .card-content > .price-component {
     display: flex;
     align-items: center;
