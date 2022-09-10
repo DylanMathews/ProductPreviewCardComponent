@@ -20,7 +20,10 @@
 </head>
 <body>
   <div class="product-card">
-    <img src="./images/image-product-desktop.jpg" alt="Bottle of perfume surrounded by leaves" class="product-image">
+    <picture class="product-image">
+      <source media="(max-width:640px)" srcset="./images/image-product-mobile.jpg">
+      <img src="./images/image-product-desktop.jpg" alt="Bottle of perfume surrounded by leaves">
+    </picture>
     <div class="card-content">
       <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
       <div class="category">Perfume</div>

@@ -31,9 +31,15 @@ p, h1 {
 }
 
 .product-card > .product-image {
-    width: 50%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+    flex: 1;
+}
+
+.product-card > .product-image > img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
 }
 
 .product-card > .card-content {
@@ -41,6 +47,7 @@ p, h1 {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
+    flex: 1;
 }
 
 .product-card > .card-content > .category {
