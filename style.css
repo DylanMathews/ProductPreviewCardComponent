@@ -58,7 +58,7 @@ body {
 
 .product-card > .card-content > .price-component > .sale-price {
     font-family: Fraunces;
-    color: darkgreen;
+    color: hsl(158, 36%, 37%);
     font-size: 2rem;
 }
 
