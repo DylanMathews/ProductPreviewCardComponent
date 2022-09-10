@@ -114,4 +114,8 @@ p, h1 {
     .product-card > .card-content {
         gap: 0.9rem;
     }
+
+    .product-card > .card-content > .product-description {
+        line-height: 1.5;
+    }
 }
