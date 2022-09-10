@@ -59,6 +59,7 @@ p, h1 {
 
 .product-card > .card-content > .product-description {
     line-height: 2;
+    color: hsl(228, 12%, 48%);
 }
 
 .product-card > .card-content > .price-component {
