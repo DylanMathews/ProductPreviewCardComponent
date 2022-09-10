@@ -27,10 +27,13 @@ p, h1 {
     display: flex;
     max-width: 600px;
     background-color: white;
+    border-radius: 10px;
 }
 
 .product-card > .product-image {
     width: 50%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .product-card > .card-content {
