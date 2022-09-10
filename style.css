@@ -78,6 +78,7 @@ p, h1 {
     font-family: Fraunces;
     font-size: 0.75rem;
     text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
 }
 
 .product-card > .card-content > button {
